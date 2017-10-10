@@ -22,5 +22,5 @@ Una vez hecho esto, puede comprobar los resultados consultando http: //localhost
 Pasos:
 1. Generar DockerFile Ubuntu
 2. Generar Dockers
-3. Modificar Hosts
-4. Modificar Ansibles
+3. Modificar Hosts (Le asignamos un puerto a los hosts)
+4. Modificar Ansibles (Cambiar los comandos de CentOS por los de Ubuntu)
