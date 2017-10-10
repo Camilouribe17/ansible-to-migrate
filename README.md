@@ -7,15 +7,15 @@ Estos Playbooks están destinados a ser una guía de referencia y de inicio para
 
 Esta pila LAMP puede estar en un solo nodo o en varios nodos. El archivo de inventario 'hosts' define los nodos en los que se deben configurar las pilas.
 
-     [servidores web]
-     localhost
+        [webservers]
+        localhost
 
-     [dbservers]
-     bienesible
+        [dbservers]
+        bensible
      
 Aquí el servidor web sería configurado en el host local y el dbserver en un servidor llamado "bensible". La pila se puede implementar mediante el siguiente comando:
 
-     ansible-playbook -i hosts site.yml
+        ansible-playbook -i hosts site.yml
      
 Una vez hecho esto, puede comprobar los resultados consultando http: //localhost/index.php. Debería ver una página de prueba simple y una lista de bases de datos recuperadas del servidor de bases de datos.
 
