@@ -18,3 +18,9 @@ Aquí el servidor web sería configurado en el host local y el dbserver en un se
      ansible-playbook -i hosts site.yml
      
 Una vez hecho esto, puede comprobar los resultados consultando http: //localhost/index.php. Debería ver una página de prueba simple y una lista de bases de datos recuperadas del servidor de bases de datos.
+
+Pasos:
+1. Generar DockerFile Ubuntu
+2. Generar Dockers
+3. Modificar Hosts
+4. Modificar Ansibles
