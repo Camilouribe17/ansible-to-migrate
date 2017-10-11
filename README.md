@@ -20,11 +20,12 @@ Aquí el servidor web sería configurado en el host local y el dbserver en un se
 Una vez hecho esto, puede comprobar los resultados consultando http: //localhost/index.php. Debería ver una página de prueba simple y una lista de bases de datos recuperadas del servidor de bases de datos.
 
 <h1>Pasos:</h1>
+
 1.
 Debes construir un docker personalizado que incluye el servidor openssh
-- Creación de la imagen en la que se basará el contenedor.
-Se ejecuta el siguiente comando :
+Creación de la imagen en la que se basará el contenedor.
 
+Se ejecuta el siguiente comando :
 $ (sudo) docker build -t {{ nombre imagen }}.
 
 ----------------------------------------------------------------------------------
