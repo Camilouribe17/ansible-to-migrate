@@ -23,6 +23,7 @@ Una vez hecho esto, puede comprobar los resultados consultando http: //localhost
 1. Debes construir un docker personalizado que incluye el servidor openssh
 - Creación de la imagen en la que se basará el contenedor.
 Se ejecuta el siguiente comando :
+
 $ (sudo) docker build -t {{ nombre imagen }}.
 
 ----------------------------------------------------------------------------------
