@@ -57,6 +57,6 @@ chmod 0600 ../authorized_keys
 5.
 Realiza una prueba de conexión a las maquinas que se crearon recientemente, en el paso anterior se crearon 2 maquinas con el puerto 2221 y 2222 abiertos para conexión:
 
-ssh root@web_server -p 2221 -i ../key.private ssh root@mysql_server -p 2222 -i ../authorized_keys
+ssh root@web -p 2221 -i ../key.private ssh root@mysql -p 2222 -i ../authorized_keys
 
 Si la conexión se establece, ya está listo para seguir con ansible.
