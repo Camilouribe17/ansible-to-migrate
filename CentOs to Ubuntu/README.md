@@ -33,16 +33,16 @@ $ (sudo) docker build -t {{ nombre imagen }}.
 2.
 Ahora debes crear un conjunto de maquinas para el despliegue, se creará un servidor web (apache) y uno de bases de datos (mysql).
 
-Nombre del contenedor web = web
-Nombre del contenedor mysql = db
+- Nombre del contenedor web = web
+- Nombre del contenedor mysql = db
 
 ----------------------------------------------------------------------------------
 
 3.
-Opción 1: edita el archivo /etc/hosts y adiciona 3 alias a localhost
+- Opción 1: edita el archivo /etc/hosts y adiciona 3 alias a localhost
 127.0.0.1 web_server mysql_server
 
-Opción 2: adición automática en el archivo de hosts del sistema
+- Opción 2: adición automática en el archivo de hosts del sistema
 echo "127.0.0.1 web_server mysql_server" | sudo tee -a /etc/hosts
 
 ----------------------------------------------------------------------------------
